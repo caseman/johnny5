@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Super Sample App - Johnny5 Dashboard</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="j5.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+    <div class="top-bar">
+    <h1>
+        <!--<img src="icons/johnny5.jpg" width="42" height="42" />-->
+        &nbsp;
+        Super Sample App
+    </h1>
+    <div class="actions">
+        <img src="icons/run.png" title="Run App" width="32" height="32"/>
+        &nbsp;&nbsp;<img src="icons/undo.png" title="Undo Changes" width="32" height="32"/>
+        &nbsp;&nbsp;<img src="icons/more.png" title="More Actions" width="32" height="32"/>
+    </div>
+    </div>
+    <br style="clear: both"/>
+
+    <div class="component">
+        <div class="title">
+            Views
+            <a href="#" class="help"><img src="icons/help.png" width="24" height="24" border="0" />
+                <span>more info</span>
+            </a>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/home-view.png"/>
+            <span class="name">Home</span>
+            <span class="descr">Initial application view</span>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/view.png"/>
+            <span class="name">Preferences</span>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/view.png"/>
+            <span class="name">View Document</span>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/view.png"/>
+            <span class="name">Edit Document</span>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/add.png" alt="Add view" />
+            <span class="action">Add a new view...</span>
+        </div>
+    </div>
+
+    <div class="component">
+        <div class="title">
+            Widgets
+            <a href="#" class="help"><img src="icons/help.png" width="24" height="24" border="0" />
+                <span>more info</span>
+            </a>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/widget.png"/>
+            <span class="name">Fancypants Text Editor</span>
+            <span class="descr">Text editor for styled text</span>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/widget.png"/>
+            <span class="name">Spellcheck</span>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/widget.png"/>
+            <span class="name">Disqus</span>
+            <span class="descr">Embeds comments hosted by Disqus</span>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/add.png" alt="Add view" />
+            <span class="action">Add a new widget...</span>
+        </div>
+    </div>
+
+    <div class="component">
+        <div class="title">
+            Stores
+            <a href="#" class="help"><img src="icons/help.png" width="24" height="24" border="0" />
+                <span>more info</span>
+            </a>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/local-store.png"/>
+            <span class="name">local web storage</span>
+            <span class="descr">HTML5 local storage (stored by browser)</span>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/file-store.png"/>
+            <span class="name">app-server</span>
+            <span class="descr">File server at <tt>app.supersample.org/app-server</tt></span>
+            <a href="#store,app-server" class="status">connected</a>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/remote-store.png"/>
+            <span class="name">super-sample-docs</span>
+            <span class="descr">Couchdb database server at <tt>docs.supersample.org</tt></span>
+            <a href="#store,super-sample-reports" class="status">connected</a>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/remote-store.png"/>
+            <span class="name">super-sample-reports</span>
+            <span class="descr">PostgreSQL database server at <tt>pgsql.supersample.org</tt></span>
+            <a href="#store,super-sample-reports" class="status">connected</a>
+        </div>
+        <div class="item">
+            <img class="icon" src="icons/add.png" alt="Add store" />
+            <span class="action">Add a new store...</span>
+        </div>
+    </div>
+</body>
+</html>

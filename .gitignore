@@ -1,0 +1,11 @@
+MANIFEST
+build
+dist
+doc/build
+doc/tutorial
+env
+*.pyc
+*.egg
+*.egg-info
+.coverage
+.DS_Store
